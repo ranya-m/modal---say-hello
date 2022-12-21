@@ -1,0 +1,17 @@
+.modalBox {
+    position: relative;
+    animation: slideDown;
+    animation-duration: 2s;
+}
+
+@keyframes slideDown {
+    from {
+        top: -600px;
+        opacity: 0;
+    }
+    to {
+        top: 30px;
+        opacity: 1;
+    }
+
+}
